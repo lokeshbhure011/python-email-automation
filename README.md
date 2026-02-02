@@ -19,18 +19,16 @@ Error handling for failed email attempts
 
 Clean and reusable function-based code
 
-🛠 Tech Stack
-------------------------------------------------------
+## 🛠 Tech Stack
 
-Windows → python
+| Technology / Platform | Purpose / Usage                              |
+|------------------------|----------------------------------------------|
+| Windows               | `python` — default Python interpreter         |
+| Linux / macOS         | `python3` — explicitly use Python 3           |
+| `smtplib` (built-in)  | Send emails via SMTP                         |
+| `email.message` (built-in) | Construct email content and headers     |
+| `python-dotenv`       | Load environment variables from `.env` file   |
 
-Linux / macOS → python3
-
-smtplib (built-in)
-
-email.message (built-in)
-
-python-dotenv
 
 📂 Project Structure
 ------------------------------------------------------
