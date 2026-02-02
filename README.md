@@ -51,30 +51,37 @@ email_automation/
 
 Create a .env file in the project root:
 
-SENDER_EMAIL=your_email@gmail.com
-APP_PASSWORD=your_app_password
-RECEIVER_EMAIL=receiver@gmail.com
+SENDER_EMAIL= ```your_email@gmail.com```
+
+APP_PASSWORD=```your_app_password```
+
+RECEIVER_EMAIL=```receiver@gmail.com```
 
 
 ⚠️ Do not upload .env to GitHub.
+
 
 📦 Installation
 ------------------------------------------------------
 
 Create and activate virtual environment:
 
+```
 python -m venv venv
 venv\Scripts\activate
+```
 
 
 Install dependencies:
 
+```
 pip install -r requirements.txt
+```
 
 ▶️ How to Run
 ------------------------------------------------------
-python send_email.py
 
+```python send_email.py ```
 
 You will be prompted to:
 
